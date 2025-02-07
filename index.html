@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="main-nav container flex">
+            <a href="" class="logo">
+                <img src="logo.png" alt="">
+            </a>
+      
+        <div class="links">
+            <ul class="flex">
+                <li class="hoverlink nav-item" id="IPL" onclick="onnavitem('IPL')">IPL</li>
+                <li class="hoverlink nav-item" id="Finance" onclick="onnavitem('Finance')">Finance</li>
+                <li class="hoverlink nav-item" id="Politics" onclick="onnavitem('Politics')">Politics</li>
+
+            </ul>
+            </div>
+            <div class="search">
+                <input type="text" id="searchtext" class="input" placeholder="Today's Weather">
+                <button class="btn" id="searchbtn">Search</button>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="card-container container flex" id="card-container">
+           
+            </div>
+            
+        </div>
+    </main>
+    <template id="template">
+        <div class="card">
+            <div class="card-header">
+                <img src="https://via.placeholder.com/400x200" alt="" id="news-img">
+            </div>
+            <div class="card-content" >
+                <h3 id="news-title">This is the Title</h3>
+                <h6 class="news-source" id="news-source">End Gadget 3409</h6>
+                <p class="decs" id="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas provident ad dicta nobis ipsum ab, autem consectetur quod earum unde ullam reprehenderit vel qui neque delectus rerum dolorum error quam!</p>
+            </div>
+    </template>
+    <script src="script.js"></script>
+</body>
+</html>
